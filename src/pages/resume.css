@@ -1,0 +1,292 @@
+#resume{
+    width: 100vw;
+    height: 70px;
+    background: #21283a;
+}
+#resone{ 
+    margin-top: -10px;
+    width: 100vw;
+    background: #21283a;
+}
+
+
+#resumecont1 h2{ 
+    color: aquamarine;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    margin:20px 0px 10px 30px;
+    position: relative;
+    font-family: "Bebas Neue", serif;
+    font-weight: 1000;
+    font-style: normal;
+    letter-spacing: 7px;
+
+}
+#resumecont1 h2::before {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    height: 3px;
+    transition: all 0.5s;
+    width:0px;
+    background: aqua;
+}
+
+#resumecont1 h2:hover::before {width: 100%;}
+
+#resumecont1 h2:hover {color: aqua;}
+
+
+/* soft skil start---- */
+
+#skill{
+    width: 210px;
+    color: white;
+    margin:20px 20px 0px 20px;
+    padding: 0px;
+    height: 210px;
+
+}
+#skill h5{
+
+    color: white;
+    font-size: 1rem;
+    text-transform: uppercase;
+    height: 35px;
+    margin-top: auto;
+    margin-bottom: auto;
+
+    
+}
+#skill #skillicon{
+    font-size: 1.5rem;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+}
+#progressbox{
+    width: 200px;
+    color: white;
+    margin:20px 0px;
+    padding: 0px;
+    height: 210px;
+  
+
+}
+.progress-bar{
+    background-color: aqua; 
+    color: rgb(22, 21, 21);
+    font-family: "Bebas Neue", serif;
+    font-weight: 1000;
+    font-style: normal;
+    text-align: center;
+}
+
+.probox{ 
+    height: 34px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.progress{
+    width: 230px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#html{ width: 90%;animation: html 2s;}
+#css{ width: 90%; animation: css 2s;}
+#js{ width: 60%; animation: js 2s;}
+#react{ width: 80%; animation: react 2s;}
+#python{ width: 40%; animation: python 2s;}
+#photoshop{ width: 50%; animation: photoshop 2s;}
+
+@keyframes html { 0%{width: 0%;} 100%{width: 90%;}}
+@keyframes css { 0%{width: 0%;} 100%{width: 90%;}}
+@keyframes js { 0%{width: 0%;} 100%{width: 60%;}}
+@keyframes react { 0%{width: 0%;} 100%{width: 80%;}}
+@keyframes pyhon { 0%{width: 0%;} 100%{width: 40%;}}
+@keyframes photoshop { 0%{width: 0%;} 100%{width: 50%;}}
+
+/* soft skil end---- */
+
+
+
+/* language start---- */
+
+#lang{
+    height: 110px;
+
+}
+
+.language h5{
+    margin:10px 20px 15px 40px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+.language{
+    width: 210px;
+    margin:0px 20px;
+    padding: 0px;
+    height: 100px;
+    
+    
+
+}
+
+#tamil{ width: 98%;animation: html 2s;}
+#eng{ width: 70%; animation: css 2s;}
+#hindi{ width: 40%; animation: js 2s;}
+
+
+/* language end---- */
+
+
+
+
+/* personal skill start---- */
+
+.personalskill{
+    margin-left: 30px;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 30px;
+    
+
+}
+/* personal skill end---- */
+
+
+
+/* education start---- */
+
+
+#educationcont h2{
+    color: aquamarine;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    margin:20px 0px 10px 30px;
+    position: relative;
+    font-family: "Bebas Neue", serif;
+    font-weight: 1000;
+    font-style: normal;
+    letter-spacing: 7px;
+}
+#educationcont h2::before {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    height: 3px;
+    transition: all 0.5s;
+    width:0px;
+    background: aqua;
+}
+
+#educationcont h2:hover::before {width: 100%;}
+
+#educationcont h2:hover{color: aqua;}
+
+.educationbox{width: 100%; margin-top: 25px;}
+
+.smlbox{ 
+    width: 15%;
+    height: 65px;
+    border-radius: 50%;
+    background-color: aquamarine;
+    padding: 15px 10px 10px 10px;
+    color: black;
+    animation-name: shadow;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-delay: .3s;
+}
+.smlbox1{ 
+    width: 15%;
+    height: 65px;
+    border-radius: 50%;
+    background-color: aquamarine;
+    padding: 15px 10px 10px 10px;
+    color: black;
+    animation-name: shadow1;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-delay: .3s;
+}
+
+@keyframes shadow {
+    0%{ box-shadow: 0px 0px 0px 0px white;}
+    50%{ box-shadow: 1px 1px 20px 2px white;}
+    100%{ box-shadow: 0px 0px 0px 0px white;}   
+}
+@keyframes shadow1 {
+    0%{box-shadow: 1px 1px 20px 2px white;}
+    50%{ box-shadow: 0px 0px 0px 0px white;}
+    100%{box-shadow: 1px 1px 20px 2px white;}
+
+
+}
+
+.bigbox{
+    width:85%; 
+    padding: 5px 5px 5px 25px;
+    color: white;
+}
+.bigbox h4{font-size: 1.2rem;}
+.bigbox h5{font-size: 1rem;}
+.bigbox h6{font-size: .8rem;}
+
+/* education end---- */
+
+
+/* experience start---- */
+
+
+#experiencecont{color: white; padding-left: 20px;}
+
+#experiencecont h2{
+    color: aquamarine;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    margin:20px 0px 10px 30px;
+    position: relative;
+    font-family: "Bebas Neue", serif;
+    font-weight: 1000;
+    font-style: normal;
+    letter-spacing: 7px;
+
+}
+#experiencecont h2::before {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    height: 3px;
+    transition: all 0.5s;
+    width:0px;
+    background: aqua;
+}
+
+#experiencecont h2:hover::before {width: 100%;}
+
+#experiencecont h2:hover {color: aqua;}
+
+#experiencecont li{margin-top: 25px;}
+
+#experiencecont li h4{font-size: 1.2rem;}
+#experiencecont li h5{font-size: .9rem;}
+#experiencecont li h6{font-size: .9rem;}
+
+.whtdo #head2{
+    margin-top: 70px;
+    color: aquamarine;
+
+}
+
+
+
+

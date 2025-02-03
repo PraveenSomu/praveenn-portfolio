@@ -1,0 +1,141 @@
+.about{
+   background: #21283a;
+}
+
+.aboutcont {
+    text-align: center;
+
+}
+
+.aboutcont1 {
+    height: 250px;
+    width: 400px;
+    margin-top: 170px;
+    text-align: start;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+.aboutcont1 h2 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-family: "Bebas Neue", serif;
+    font-weight: 1000;
+    font-style: normal;
+    letter-spacing: 8px;
+    position: relative;
+    margin-bottom: 30px;
+
+}
+
+.aboutcont1 h2::before {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    height: 3px;
+    transition: all 0.5s;
+    width: 0px;
+    background: aqua;
+}
+
+.aboutcont1 h2:hover::before {
+    width: 100%;
+}
+
+.aboutcont1 h2:hover {
+    color: aqua;
+}
+
+.aboutcont1 h6 {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+
+.aboutcont1 p {
+    text-indent: 50px;
+}
+
+
+#maincont2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.card img {
+    height: 200px;
+    width: 200px;
+    transition: .7s;
+    animation-name: triangle;
+    animation-timing-function: ease;
+    animation-delay: .2s;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    width: 450px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    animation-name: triangle;
+    animation-timing-function: ease;
+    animation-delay: .2s;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.container .card {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    margin: 0px -47px;
+
+}
+
+.container .card:nth-child(4),
+.container .card:nth-child(1),
+.container .card:nth-child(3) {
+    clip-path: polygon(50% 100%, 0 0, 100% 0);
+
+}
+
+.container .card:hover img {
+    transform: scale(1.5);
+}
+
+@keyframes triangle {
+    0% {
+        gap: -50px;
+        filter: grayscale(100%);
+    }
+
+    25% {
+        gap: 2px;
+        filter: grayscale(100%);
+    }
+
+    50% {
+        gap: 30px;
+        filter: grayscale(0%);
+    }
+
+    75% {
+        gap: 2px;
+        filter: grayscale(100%);
+    }
+
+    100% {
+        gap: -50px;
+        filter: grayscale(100%);
+    }
+}
