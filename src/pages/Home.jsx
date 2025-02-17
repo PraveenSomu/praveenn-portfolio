@@ -77,7 +77,7 @@ const Home = () => {
                     <div className="contentbx">
                         <h4>Hello,</h4>
                         <h2> I'm <span>Praveenkumar S</span></h2>
-                        <h3>REACT JS DEVELOPER</h3>
+                        <h3>MERN STACK DEVELOPER</h3>
                         <a href="#">Hire Me</a>
                         <a href="#">Download CV</a>
                     </div>
@@ -108,7 +108,7 @@ const Home = () => {
                         <div className="aboutcont1">
                             <h2>About</h2>
                             <h6>praveensomu567@gmail.com</h6>
-                            <p>A skilled and motivated REACT JS DEVELOPER with experience in React, HTML, CSS and JavaScript. Committed to delivering high-quality results and working collaboratively in a friendly and dynamic environment.</p>
+                            <p>A skilled and motivated MERN STACK DEVELOPER with experience in React, HTML, CSS JavaScript, Bootstrap, Express js , Node js and Mongo DB. Committed to delivering high-quality results and working collaboratively in a friendly and dynamic environment.</p>
                         </div>
                     </div>
 
@@ -191,7 +191,7 @@ const Home = () => {
                                 <div className="language cols">
                                     <h5>tamil</h5>
                                     <h5>English</h5>
-                                    <h5>hindi</h5>
+                                    
                                 </div>
                                 <div id="progressbox" className="cols">
                                     <div className="probox">
